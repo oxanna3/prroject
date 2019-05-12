@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/stylenn.css" />
+  <link rel="stylesheet" href="css/style_but.css" />
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="shortcut icon" href="images/other/tr_z.png" type="image/png" />
+  <title>Волонтерська група-Контакти</title>
+</head>
+
+<body>
+  <header style="display: flex" class="text-shadow">
+    Волонтерська група "Кікіморушки Києва"
+  </header>
+
+  <div class="menu">
+    <a href="index.html">Головна</a>
+    <a href="about.html">Про нас</a>
+    <a href="weekdays.html">Наші будні</a>
+    <a href="report.html">Звіт</a>
+    <a href="nedd.html">Потреби</a>
+    <a href="team.html">Наша команда</a>
+    <a href="contacts.html" style=" background-color: grey; color: black;text-decoration: none;">Контакти</a>
+  </div>
+  <div class="container_my">
+    <div class="leftside" style=" opacity:1">
+      <h3>Контакти</h3>
+      <h4>
+        Волонтерська група <br />"Кікіморушки Києва"<br />
+        Миронова Наталія
+      </h4>
+      <img src="images/foto/foto.jpg" width="200" /><br />
+      <ul style="font-size: 1.5em;">
+        <li><b>Адреса: </b> м.Київ, вул. Бажова, буд.12</li>
+        <li>
+          <b>Контактний телефон (viber):<br /> </b> (097)123-78-90,
+          (093)567-90-98
+        </li>
+        <li>
+          Сторінка у facebook Ната Киев<a style="color:green" href="#">
+            Перейти>></a>
+        </li>
+      </ul>
+      <h4>Можете допомогти? Долучайтесь!</h4>
+      <p style="font-size: 1.5em;">Картка Privat 12345678</p>
+    </div>
+    <div class="main">
+      <h3>Як нас знайти</h3>
+      <div style="overflow:hidden;width: 700px;height: 440px;">
+        <iframe width="700" height="440"
+          src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=ua&amp;q=%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0%2C%20%D0%BA%D0%B8%D1%97%D0%B2%2C%20%D0%B1%D0%B0%D0%B6%D0%BE%D0%B2%D0%B0%2012+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=p&amp;z=10&amp;iwloc=B&amp;output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
+        <div>
+          <small>
+            <a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a>
+          </small>
+        </div>
+        <div>
+          <small>
+            <a href="https://iamsterdamcard.it">http://iamsterdamcard.it/</a>
+          </small>
+        </div>
+        <style>
+          #gmap_canvas img {
+            max-width: none !important;
+            background: none !important;
+          }
+        </style>
+      </div>
+      <br />
+      <form id="application" action=" application.php" method="POST" name=" application ">
+        <br />
+        <p id="forma" style="font-size: 1.2rem; font-weight: 600">
+          Для зв'язку з нами заповніть форму:
+        </p>
+        <input name="name" id="applicationName" maxlength="20" placeholder="Введіть ваше ім'я" required /><br>
+        <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введіть ваш E-mail"
+          required /><br>
+        <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введіть ваш телефон"
+          required /><br>
+        <textarea class="message" name="message">Повідомлення:</textarea><br><br>
+        <button class="applicationButton" type="submit" form="application">
+          Надіслати
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p style="text-align: center; padding-top: 25px;">
+      Copyright © Волонтерська група "Кікіморушки Києва" 2018-2019
+    </p>
+  </footer>
+</body>
+
+</html>
