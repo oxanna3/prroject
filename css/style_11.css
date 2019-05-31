@@ -157,6 +157,7 @@ footer {
 .sli-links {
   margin-top: 10px;
   text-align: center;
+  width: 500px;
 }
 .sli-links .control-slide {
   margin: 2px;
